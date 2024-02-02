@@ -1,0 +1,60 @@
+/* Commande.css */
+
+.commande-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  
+  .commande-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .commande-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .commande-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .product-title {
+    font-weight: bold;
+  }
+  
+  .product-price {
+    margin-left: auto;
+  }
+  
+  /* Styles pour le panier vide */
+  .empty-cart-message {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .clear-button {
+    background-color: #ff0000; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement du bouton */
+    border: none; /* Supprime la bordure */
+    cursor: pointer; /* Curseur de type main (comme un lien) */
+  }
+  
+  .clear-button:hover {
+    background-color: #cc0000; /* Changement de couleur au survol */
+  }

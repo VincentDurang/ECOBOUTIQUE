@@ -1,0 +1,85 @@
+/* HomePage.css */
+
+.home-page-container {
+  padding: 60px;
+  text-align: center;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: calc(33.33% - 20px); /* Répartit les produits sur trois colonnes */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  display: flex; /* Ajout pour afficher les éléments en colonne */
+  flex-direction: column; /* Ajout pour afficher les éléments en colonne */
+  align-items: center; /* Ajout pour centrer les éléments horizontalement */
+  transition: transform 0.2s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.02); /* Légère animation d'agrandissement au survol */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  color: #e74c3c;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 200px; /* Définit une hauteur maximale pour les images */
+  margin-bottom: 10px;
+}
+
+
+.product-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-to-cart-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #2980b9;
+}
+
+.product-details-button {
+  text-decoration: none;
+  background-color: #ddd; /* Utilise une couleur plus claire pour rendre le bouton moins visible */
+  color: #444; /* Choisis une couleur de texte plus sombre pour un contraste adéquat */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-details-button:hover {
+  background-color: #ccc; /* Légère modification de la couleur au survol, mais reste plus discret */
+}

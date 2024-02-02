@@ -1,0 +1,41 @@
+/* Descriptif.css */
+
+.product-details-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    color: #e74c3c;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+  
+  .product-category {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .loading-message {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Ajoute d'autres styles CSS si nécessaire */
+  
